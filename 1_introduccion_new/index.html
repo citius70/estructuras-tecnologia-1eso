@@ -1,0 +1,1227 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../cuestionarios_estructuras/cuestionario_introduccion/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>1. Introducción - Estructuras</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+      <link rel="stylesheet" href="../css/quiz.css">
+    
+      <link rel="stylesheet" href="../css/cuestionarios.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-introduccion-a-las-estructuras" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Estructuras" class="md-header__button md-logo" aria-label="Estructuras" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Estructuras
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              1. Introducción
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Estructuras" class="md-nav__button md-logo" aria-label="Estructuras" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Estructuras
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    1. Introducción
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    1. Introducción
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-son-las-estructuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Qué son las estructuras?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="¿Qué son las estructuras?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definicion-tecnica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definición técnica
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#por-que-son-importantes-las-estructuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Por qué son importantes las estructuras?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estructuras-que-nos-rodean" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructuras que nos rodean
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipos-de-estructuras-segun-su-origen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de estructuras según su origen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tipos de estructuras según su origen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estructuras-naturales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructuras Naturales
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estructuras Naturales">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#estructuras-artificiales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructuras Artificiales
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estructuras Artificiales">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos-historicos-fascinantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos históricos fascinantes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejemplos históricos fascinantes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#la-torre-eiffel" class="md-nav__link">
+    <span class="md-ellipsis">
+      La Torre Eiffel 🗼
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#el-empire-state-building" class="md-nav__link">
+    <span class="md-ellipsis">
+      El Empire State Building 🏢
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#los-puentes-romanos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Los puentes romanos 🌉
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curiosidades-estructurales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curiosidades estructurales
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conceptos-clave-para-recordar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conceptos clave para recordar
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cuestionarios_estructuras/cuestionario_introduccion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ❓ Cuestionario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_fuerzas_new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Fuerzas y cargas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cuestionarios_estructuras/cuestionario_fuerzas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ❓ Cuestionario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_estructuras_tipos_new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Tipos de estructuras
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cuestionarios_estructuras/cuestionario_estructuras_tipos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ❓ Cuestionario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_tipos_new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Tipos de estructuras artificiales
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cuestionarios_estructuras/cuestionario_tipos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ❓ Cuestionario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5_materiales_new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Materiales
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cuestionarios_estructuras/cuestionario_materiales/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ❓ Cuestionario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6_esfuerzos_new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Esfuerzos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cuestionarios_estructuras/cuestionario_esfuerzos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ❓ Cuestionario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7_elementos_new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Elementos estructurales
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cuestionarios_estructuras/cuestionario_elementos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ❓ Cuestionario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8_resistencia_new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    8. Resistencia
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cuestionarios_estructuras/cuestionario_resistencia/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ❓ Cuestionario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9_rigidez_new." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    9. Rigidez
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cuestionarios_estructuras/cuestionario_rigidez/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ❓ Cuestionario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10_estabilidad_new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10. Estabilidad
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cuestionarios_estructuras/cuestionario_estabilidad/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ❓ Cuestionario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../puentes.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estudio de un puente
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-son-las-estructuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Qué son las estructuras?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="¿Qué son las estructuras?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definicion-tecnica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definición técnica
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#por-que-son-importantes-las-estructuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Por qué son importantes las estructuras?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estructuras-que-nos-rodean" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructuras que nos rodean
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipos-de-estructuras-segun-su-origen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de estructuras según su origen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tipos de estructuras según su origen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estructuras-naturales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructuras Naturales
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estructuras Naturales">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#estructuras-artificiales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructuras Artificiales
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estructuras Artificiales">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos-historicos-fascinantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplos históricos fascinantes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejemplos históricos fascinantes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#la-torre-eiffel" class="md-nav__link">
+    <span class="md-ellipsis">
+      La Torre Eiffel 🗼
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#el-empire-state-building" class="md-nav__link">
+    <span class="md-ellipsis">
+      El Empire State Building 🏢
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#los-puentes-romanos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Los puentes romanos 🌉
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curiosidades-estructurales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curiosidades estructurales
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conceptos-clave-para-recordar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conceptos clave para recordar
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="1-introduccion-a-las-estructuras"><strong>1. INTRODUCCIÓN A LAS ESTRUCTURAS</strong></h1>
+<h2 id="que-son-las-estructuras">¿Qué son las estructuras?</h2>
+<p><img align="right" alt="An educational front view illustration of the human skeleton with labeled bones in Spanish." src="https://pplx-res.cloudinary.com/image/upload/v1753696628/pplx_project_search_images/936505d3bbff0317c32da83817bb2cb6f2b8444a.jpg" width="50%" /></p>
+<p>¿Te has preguntado alguna vez por qué no te caes al caminar? ¿O cómo es posible que un rascacielos de cientos de metros de altura se mantenga en pie sin desplomarse? La respuesta está en algo que nos rodea constantemente: <strong>las estructuras</strong>.</p>
+<p>Una <strong>estructura</strong> es un conjunto de elementos unidos entre sí que son capaces de soportar fuerzas y cargas sin romperse, deformarse excesivamente o caerse. Su función principal es mantener una forma determinada y transmitir las fuerzas que actúan sobre ella hasta los puntos donde se apoya.</p>
+<h3 id="definicion-tecnica">Definición técnica</h3>
+<div class="admonition definición de estructura">
+<p class="admonition-title">Definición</p>
+<p><strong>Un conjunto de elementos unidos entre sí</strong> capaces de <strong>soportar las fuerzas</strong> que actúan sobre ellas, conservando su forma y transmitiendo estas fuerzas hasta sus apoyos.</p>
+</div>
+<p>Además de soportar o resistir las cargas (resistencia), también deben hacerlo sin deformarse mucho (rigidez), ni volcar o caerse (estabilidad).</p>
+<h2 id="por-que-son-importantes-las-estructuras">¿Por qué son importantes las estructuras?</h2>
+<p>Las estructuras son fundamentales en nuestras vidas porque:</p>
+<p><strong>🏠 En la vida humana</strong>: Sin estructuras resistentes no existirían casas seguras, puentes estables, coches seguros o medios de transporte eficientes. Hacen posible que edifiquemos desde una sencilla silla hasta los rascacielos más altos del mundo.</p>
+<p><strong>🌿 En la naturaleza</strong>: Permiten a los seres vivos moverse, protegerse y sobrevivir. Desde el esqueleto que sostiene nuestro cuerpo hasta el caparazón que protege a una tortuga.</p>
+<h2 id="estructuras-que-nos-rodean">Estructuras que nos rodean</h2>
+<p>Mira a tu alrededor. En este mismo momento estás rodeado de estructuras:</p>
+<p><img align="right" alt="Un puente atirantado, ilustrando un ejemplo de estructura artificial." src="https://pplx-res.cloudinary.com/image/upload/v1753696628/pplx_project_search_images/6e4c166f65d58e9c49610fbf3c401d0f34cefa9e.jpg" width="40%" /></p>
+<ul>
+<li><strong>La silla</strong> en la que te sientas tiene una estructura que soporta tu peso.</li>
+<li><strong>El edificio</strong> donde estudias tiene pilares y vigas que sostienen los techos y las paredes.</li>
+<li><strong>Tu propio cuerpo</strong> tiene una estructura: el esqueleto, que te permite mantenerte erguido.</li>
+<li><strong>La mesa</strong> del aula está diseñada para soportar libros, cuadernos y materiales.</li>
+<li><strong>El puente</strong> que cruzas para llegar al instituto permite el paso seguro sobre obstáculos.</li>
+</ul>
+<h2 id="tipos-de-estructuras-segun-su-origen">Tipos de estructuras según su origen</h2>
+<h3 id="estructuras-naturales">Estructuras Naturales</h3>
+<p><img align="right" alt="A natural bird nest containing eggs among reeds by the water." src="https://pplx-res.cloudinary.com/image/upload/v1753696628/pplx_project_search_images/d8e58093951b174f863c34e3327da79593584296.jpg" width="40%" /></p>
+<p>Son aquellas que <strong>no han sido creadas por el ser humano</strong>, sino que forman parte de la naturaleza. La naturaleza es una ingeniera extraordinaria que ha creado estructuras increíbles:</p>
+<h4 id="ejemplos"><strong>Ejemplos:</strong></h4>
+<ul>
+<li><strong>Esqueleto humano y animal</strong>: Da forma y soporte al cuerpo. Tu esqueleto tiene 206 huesos que trabajan juntos para sostenerte</li>
+<li><strong>Caparazones</strong>: Protegen a animales como tortugas, caracoles o cangrejos</li>
+<li><strong>Troncos y ramas de los árboles</strong>: Resisten el viento y sostienen las hojas para captar la luz solar</li>
+<li><strong>Exoesqueletos</strong>: Como el de los insectos, que les proporciona protección y estructura</li>
+<li><strong>Nidos de pájaros</strong>: Estructuras increíblemente resistentes hechas con ramas, barro y otros materiales</li>
+<li><strong>Colmenas de abejas</strong>: Estructuras hexagonales perfectas que optimizan el espacio</li>
+<li><strong>Telas de araña</strong>: Estructuras flexibles pero extremadamente resistentes</li>
+<li><strong>Cuevas</strong>: Formadas por la erosión del agua en la roca</li>
+<li><strong>Montañas</strong>: Estructuras rocosas que resisten enormes fuerzas</li>
+<li><strong>Formaciones rocosas</strong>: Como arcos naturales o acantilados</li>
+</ul>
+<h3 id="estructuras-artificiales">Estructuras Artificiales</h3>
+<p><img align="right" alt="Technical diagram of the Eiffel Tower showing heights from ground and sea level, widths, and surface areas at various levels of the iron structure." src="https://pplx-res.cloudinary.com/image/upload/v1753696629/pplx_project_search_images/fac33aa718df6064454ff56901eb83ff21faab45.jpg" width="40%" /></p>
+<p>Son aquellas <strong>creadas por el ser humano</strong> para satisfacer diferentes necesidades. Los humanos hemos aprendido de la naturaleza para crear nuestras propias estructuras:</p>
+<h4 id="ejemplos_1"><strong>Ejemplos:</strong></h4>
+<ul>
+<li><strong>Edificios y rascacielos</strong>: Como el Empire State Building, construido en 1929 con 102 pisos</li>
+<li><strong>Puentes</strong>: Desde los simples de madera hasta los colgantes que salvan grandes distancias</li>
+<li><strong>Torres</strong>: Como la Torre Eiffel, construida en 1889 con hierro forjado y que pesa 6.300 toneladas</li>
+</ul>
+<p><img align="right" alt="Low-angle black and white view of the Eiffel Tower showcasing its iron lattice structure and architectural details." src="https://pplx-res.cloudinary.com/image/upload/v1753696628/pplx_project_search_images/9ddf3a47ffa54074af3e637c061d3fae4941012e.jpg" width="30%" /></p>
+<ul>
+<li><strong>Mobiliario</strong>: Sillas, mesas, estanterías</li>
+<li><strong>Vehículos</strong>: El chasis de un coche que protege a los pasajeros</li>
+<li><strong>Electrodomésticos</strong>: La carcasa de un ordenador o un televisor</li>
+<li><strong>Deportivos</strong>: Porterías, canastas de baloncesto, redes de tenis</li>
+</ul>
+<h2 id="ejemplos-historicos-fascinantes">Ejemplos históricos fascinantes</h2>
+<h3 id="la-torre-eiffel">La Torre Eiffel 🗼</h3>
+<ul>
+<li>Construida en 1889 en París</li>
+<li>Hecha completamente de hierro forjado</li>
+<li>Pesa 6.300 toneladas</li>
+<li>Fue una demostración de que las estructuras metálicas podían ser ligeras y resistentes</li>
+</ul>
+<h3 id="el-empire-state-building">El Empire State Building 🏢</h3>
+<ul>
+<li>Uno de los primeros rascacielos del mundo</li>
+<li>Construido en 1929 en Nueva York</li>
+<li>Tiene 102 pisos</li>
+<li>Su estructura de acero permite alcanzar esas alturas de forma segura</li>
+</ul>
+<h3 id="los-puentes-romanos">Los puentes romanos 🌉</h3>
+<ul>
+<li>Construidos hace más de 2000 años</li>
+<li>Utilizaban arcos de piedra</li>
+<li>Muchos siguen en pie y funcionando hoy en día</li>
+<li>Demuestran la importancia de una buena estructura[^10]</li>
+</ul>
+<hr />
+<h2 id="curiosidades-estructurales">Curiosidades estructurales</h2>
+<p><strong>🦴 ¿Sabías que...?</strong></p>
+<div class="admonition info">
+<p class="admonition-title">¿Sabias qué..?</p>
+<ul>
+<li>El esqueleto humano representa aproximadamente el 12% del peso total del cuerpo</li>
+<li>Una pajita de refresco puede resistir aproximadamente 10 kg cuando está sometida a tracción</li>
+<li>El hueso más fuerte del cuerpo humano es el fémur, que puede soportar hasta 30 veces el peso corporal</li>
+<li>Los nidos de algunas aves pueden resistir vientos de más de 100 km/h</li>
+</ul>
+</div>
+<hr />
+<h2 id="conceptos-clave-para-recordar">Conceptos clave para recordar</h2>
+<p><strong>📝 Glosario del tema:</strong></p>
+<ul>
+<li><strong>Estructura</strong>: Conjunto de elementos unidos que soportan fuerzas sin romperse</li>
+<li><strong>Carga</strong>: Fuerza que actúa sobre una estructura</li>
+<li><strong>Resistencia</strong>: Capacidad de soportar fuerzas sin romperse</li>
+<li><strong>Rigidez</strong>: Capacidad de mantener la forma sin deformarse excesivamente</li>
+<li><strong>Estabilidad</strong>: Capacidad de no volcarse o perder el equilibrio</li>
+<li><strong>Estructura natural</strong>: Creada por la naturaleza sin intervención humana</li>
+<li><strong>Estructura artificial</strong>: Diseñada y construida por el ser humano</li>
+</ul>
+<p><em>¡Felicidades! Has completado la introducción al fascinante mundo de las estructuras resistentes. Ahora entiendes qué son, por qué son importantes y cómo nos rodean en cada momento de nuestras vidas. En el próximo apartado exploraremos los diferentes tipos de estructuras artificiales que los ingenieros y arquitectos han diseñado a lo largo de la historia.</em></p>
+<div style="text-align: center">⁂</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.top", "navigation.sections", "navigation.instant", "navigation.expand"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+        <script src="../javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../js/quiz.js"></script>
+      
+        <script src="../js/cuestionario-generico.js"></script>
+      
+    
+  </body>
+</html>
