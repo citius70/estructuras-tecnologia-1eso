@@ -1,0 +1,211 @@
+site_name: Estructuras resistentes
+
+theme:
+  name: material
+  language: es
+  font:
+    text: Noto sans, sans-serif
+    code: Fira code, sans-serif
+  palette:
+    scheme: default
+    primary: blue 
+    accent: pink
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/github
+
+  features:
+
+  # - navigation.top
+  # - navigation.sections     # Submenús laterales
+    - navigation.instant      # Navegación instantánea sin recargar la página
+  # - navigation.expand       # Siempre mostrar desplegados
+  # - navigation.tabs         # Pestañas para contenido alternativo
+    - navigation.tabs.sticky  # Pestañas pegajosas
+  # - navigation.tabs.alternate_style  # Estilo alternativo para pestañas 
+    - navigation.footer
+    - navigation.indexes      # Índices de contenido
+    - navigation.tracking
+
+  # - toc.integrate           # Tabla de contenidos integrada en la barra lateral
+    - search.highlight       # Resaltar términos de búsqueda
+    - search.suggest         # Sugerencias de búsqueda
+    - search.share
+    - content.code.annotate  # Anotaciones en bloques de código
+    - content.tabs           # Pestañas para contenido alternativo
+    - content.tooltips       # Tooltips para enlaces internos
+  # - content.footnotes      # Notas al pie
+  # - content.tables         # Estilo mejorado para tablas
+    - content.images         # Estilo mejorado para imágenes
+    - content.captions       # Leyendas para imágenes y tablas
+    - content.emoji          # Soporte para emojis
+    - content.math           # Soporte para matemáticas (KaTeX)
+    - content.video          # Soporte para vídeos
+    - content.audio          # Soporte para audios
+    - content.details        # Etiqueta <details> y <summary>
+    - content.admonition     # Bloques de admonición
+    
+
+    # Content
+    - content.code.copy
+    - content.code.annotate
+
+
+
+copyright: Elaborado por Alberto Durán Pérez - Departamento de Tecnología IES Frei Martín Sarmiento (Pontevedra)
+repo_url: https://citius70.github.io/estructuras-tecnologia-1eso/
+repo_name: estructuras-tecnologia-1eso/
+
+
+nav:
+  - Inicio: index.md
+
+  - 1. Introducción: 1_introduccion_new.md
+  -    ❓ Cuestionario: cuestionarios_estructuras/cuestionario_introduccion.md
+
+  - 2. Fuerzas y cargas: 2_fuerzas_new.md
+    
+  -   2.1. La medición de las fuerzas: 2_1_fuerzas_medicion_new.md
+  -     ❓ Cuestionario: cuestionarios_estructuras/cuestionario_fuerzas.md 
+
+  - 3. Tipos de estructuras: 3_estructuras_tipos_new.md
+  -    ❓ Cuestionario: cuestionarios_estructuras/cuestionario_estructuras_tipos.md
+
+  - 4. Tipos de estructuras artificiales: 4_tipos_new.md
+  -    ❓ Cuestionario: cuestionarios_estructuras/cuestionario_tipos.md
+
+  - 5. Materiales: 5_materiales_new.md
+  -   ❓ Cuestionario: cuestionarios_estructuras/cuestionario_materiales.md
+
+  - 6. Esfuerzos: 6_esfuerzos_new.md
+  -    ❓ Cuestionario: cuestionarios_estructuras/cuestionario_esfuerzos.md
+
+  - 7. Elementos estructurales: 7_elementos_new.md
+  -    ❓ Cuestionario: cuestionarios_estructuras/cuestionario_elementos.md
+
+  
+  - 8.1. Resistencia: 8_resistencia_new.md
+  - ❓ Cuestionario: cuestionarios_estructuras/cuestionario_resistencia.md
+  - 8.2. Rigidez: 9_rigidez_new.md 
+  - ❓ Cuestionario: cuestionarios_estructuras/cuestionario_rigidez.md
+  - 8.3. Estabilidad: 10_estabilidad_new.md
+  - ❓ Cuestionario: cuestionarios_estructuras/cuestionario_estabilidad.md
+
+  - Estudio de un puente: old/puentes.md
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - footnotes
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - js/quiz.js
+  - js/cuestionario-generico.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - css/quiz.css
+  - css/cuestionarios.css
+
+plugins:
+  - search:
+      lang: es
+      separator: '[\s\-]+'
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_themed: false
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
+  - pdf-export:
+      verbose: true
+  - with-pdf:
+      cover_title: "Estructuras resistentes"
+      cover_subtitle: "Departamento de Tecnología"
+      output_path: "documentacion.pdf"
+
+
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - footnotes
+
+  
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - js/quiz.js
+  - js/cuestionario-generico.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - css/quiz.css
+  - css/cuestionarios.css
+
+plugins:
+  - search:
+      lang: es
+      separator: '[\s\-]+'
