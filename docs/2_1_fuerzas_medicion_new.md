@@ -26,7 +26,9 @@ Para que te hagas una idea de lo que representa un newton:
 - **Un coche pequeño**: puede pesar alrededor de **10,000 newtons**
 
 
-## El dinamómetro: midiendo fuerzas  ![Dinamometro](./media/dinamometro.png){align=right width=30%}
+## El dinamómetro: midiendo fuerzas
+
+![Dinamometro](./media/dinamometro.png){align=right width=30%}
 
 El **dinamómetro** es un instrumento que nos permite medir fuerzas de manera directa. Funciona mediante un resorte calibrado que se estira proporcionalmente a la fuerza aplicada.
 

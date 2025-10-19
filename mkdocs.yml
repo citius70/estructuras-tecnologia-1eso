@@ -52,7 +52,7 @@ theme:
 
 
 
-copyright: Elaborado por Alberto Durán Pérez - Departamento de Tecnología IES Frei Martín Sarmiento (Pontevedra)
+copyright: Elaborado por Alberto Durán Pérez
 repo_url: https://citius70.github.io/estructuras-tecnologia-1eso/
 repo_name: estructuras-tecnologia-1eso/
 
@@ -91,7 +91,8 @@ nav:
   - 8.3. Estabilidad: 10_estabilidad_new.md
   - ❓ Cuestionario: cuestionarios_estructuras/cuestionario_estabilidad.md
 
-  - Estudio de un puente: old/puentes.md
+  - Análisis de un puente: puentes.md
+  - (Documento en PDF): pdf/document.pdf
 
 markdown_extensions:
   - pymdownx.superfences:
@@ -137,29 +138,90 @@ plugins:
   - search:
       lang: es
       separator: '[\s\-]+'
-  - glightbox:
-      touchNavigation: true
-      loop: false
-      effect: zoom
-      slide_effect: slide
-      width: 100%
-      height: auto
-      zoomable: true
-      draggable: true
-      skip_classes:
-        - custom-skip-class-name
-      auto_themed: false
-      auto_caption: false
-      caption_position: bottom
-      background: white
-      shadow: true
-      manual: false
-  - pdf-export:
-      verbose: true
+# - glightbox:
+#     touchNavigation: true
+#     loop: false
+#     effect: zoom
+#     slide_effect: slide
+#     width: 100%
+#     height: auto
+#     zoomable: true
+#     draggable: true
+#     skip_classes:
+#       - custom-skip-class-name
+#     auto_themed: false
+#     auto_caption: false
+#     caption_position: bottom
+#     background: white
+#     shadow: true
+#     manual: false
+# - exporter:
+#     formats:
+#       pdf:
+#         enabled: true
+#         output: well-known/site.pdf
+#         verbose: true
+# - pdf-export:
+#     verbose: true
   - with-pdf:
-      cover_title: "Estructuras resistentes"
-      cover_subtitle: "Departamento de Tecnología"
-      output_path: "documentacion.pdf"
+      # Información de la portada
+      cover: true
+      # cover_title: "Estructuras resistentes"
+      cover_subtitle: "Tecnología y digitalización - 1º ESO"
+      author: "Alberto Durán Pérez"
+      subject: "Teoría"
+      keywords: "Estructuras, Tecnología, ESO, Fuerzas, Materiales, Esfuerzos"
+      affiliation: "IES Frei Martín Sarmiento - Pontevedra"
+      
+      # Configuración de salida
+      # output_path: site/pdf/estructuras_resistentes.pdf
+      # enabled_if_env: ENABLE_PDF_EXPORT
+      # $ ENABLE_PDF_EXPORT=1 mkdocs build
+      # set ENABLE_PDF_EXPORT=1 && mkdocs build
+
+
+      # Tabla de contenidos
+      toc:
+        enabled: true
+        toc_title: Tabla de contenidos
+        depth: 1
+        heading_shift: true
+  
+      
+      # Numeración
+      number_sections: false
+      number_figures: true
+      number_tables: false
+      number_equations: false
+      
+      # Estilos y formato
+      paper_size: A4
+      orientation: portrait
+      margin:
+        top: 20
+        bottom: 20
+        left: 20
+        right: 20
+      
+      # Encabezados y pies de página
+      header:
+        enabled: true
+        center: "Estructuras resistentes"
+        right: "Tecnología y digitalización - 1ª ESO"
+      
+      footer:
+        enabled: true
+        center: "Página [page] de [toPage]"
+        left: "Elaborado por Alberto Durán Pérez"
+      
+      # Excluir páginas específicas
+      excludes:
+      #  - index.md
+        - changelog.md
+       
+
+
+
 
 
 
@@ -204,8 +266,6 @@ extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
   - css/quiz.css
   - css/cuestionarios.css
-
-plugins:
-  - search:
-      lang: es
-      separator: '[\s\-]+'
+  - https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Fira+Code:wght@400;500&display=swap
+  - css/extra.css
+  - css/pdf-fix.css

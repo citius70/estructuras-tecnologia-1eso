@@ -1,4 +1,4 @@
-# **3. TIPOS DE ESTRUCTURAS SEGÚN SU ORIGEN**
+# TIPOS DE ESTRUCTURAS SEGÚN SU ORIGEN
 
 ## ¿Por qué son importantes las estructuras?
 
@@ -10,7 +10,7 @@ Antes de conocer los diferentes tipos de estructuras, es fundamental entender po
 
 Estamos rodeados de estructuras **naturales** y **artificiales** constantemente, aunque a menudo no las notemos.
 
-## **ESTRUCTURAS NATURALES**
+## ESTRUCTURAS NATURALES
 
 !!! Definición
 
@@ -80,7 +80,7 @@ La naturaleza ha sido el mejor ingeniero durante millones de años. A través de
 - **Aplicación**: Estructuras tipo panal en aeronáutica y construcción
 
 
-## **ESTRUCTURAS ARTIFICIALES**
+## ESTRUCTURAS ARTIFICIALES
 
 !!! Definición
 
@@ -150,7 +150,7 @@ Los seres humanos hemos aprendido observando la naturaleza, pero también hemos 
 - **Importancia**: Hacen posible el transporte seguro de personas
 
 
-## **Definición técnica de estructura artificial**
+## Definición técnica de estructura artificial
 
 Ahora que conocemos los ejemplos, podemos dar una definición más precisa:
 
@@ -168,7 +168,7 @@ Supongamos que un tren está cruzando sobre un río. La estructura del puente de
 2. **Soportar el peso del tren** (carga variable)
 3. **Trasladar este peso** hasta los apoyos del puente en las orillas
 
-## **Condiciones para una estructura funcional**
+## Condiciones para una estructura funcional
 
 ¿Qué condiciones debe cumplir una estructura para funcionar bien?
 

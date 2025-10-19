@@ -1,4 +1,4 @@
-# **7. ELEMENTOS DE UNA ESTRUCTURA**
+# ELEMENTOS DE UNA ESTRUCTURA
 
 Para que una estructura funcione correctamente, es decir, sea **resistente, rígida y estable**, necesita estar formada por una serie de **elementos estructurales** bien diseñados y distribuidos. Estos elementos no están colocados al azar: cada uno **cumple una función** muy concreta y **resiste determinados tipos de esfuerzos** cuando sobre la estructura actúan distintas fuerzas o cargas.
 

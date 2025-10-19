@@ -1,4 +1,4 @@
-# **2. FUERZAS Y CARGAS**
+# FUERZAS Y CARGAS EN LAS ESTRUCTURAS
 
 ## ¿Qué es una **fuerza**?
 

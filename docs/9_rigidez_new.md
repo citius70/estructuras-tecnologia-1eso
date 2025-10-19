@@ -1,4 +1,4 @@
-# **9. LA RIGIDEZ EN LAS ESTRUCTURAS**
+# LA RIGIDEZ EN LAS ESTRUCTURAS
 
 La **rigidez** es una de las cualidades esenciales que debe cumplir una estructura para funcionar correctamente, junto con la **resistencia** y la **estabilidad**.
 

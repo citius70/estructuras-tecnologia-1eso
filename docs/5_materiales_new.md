@@ -1,6 +1,6 @@
-# **5. MATERIALES Y ESTRUCTURAS**
+# MATERIALES Y ESTRUCTURAS
 
-## **Materiales tradicionales en la construcción**
+## Materiales tradicionales en la construcción
 
 A lo largo de la historia, los seres humanos han utilizado diversos materiales para construir estructuras, desde los más básicos hasta los más sofisticados:
 
@@ -10,13 +10,13 @@ A lo largo de la historia, los seres humanos han utilizado diversos materiales p
 - **Metal**: Hierro, bronce, acero
 - **Materiales modernos**: Hormigón, plásticos, materiales compuestos
 
-## **Materiales principales para construir estructuras: el acero y el hormigón**
+## Materiales principales para construir estructuras: el acero y el hormigón
 
 Hay muchos materiales que nos sirven para construir estructuras, desde el plástico para los objetos pequeños, hasta el acero y el hormigón para los grandes edificios.
 
 A continuación estudiaremos con algo más de detalle estos dos últimos materiales, que debido a su gran resistencia, se utilizan mayoritariamente en las estructuras que deben soportar cargas pesadas.
 
-### **El Acero**
+### El Acero
 
 La mayoría de los metales que usamos son **aleaciones**, mezclas de metales entre sí o con otras sustancias. Por ejemplo, el acero es una aleación en la que el componente principal es el hierro.
 
@@ -30,7 +30,7 @@ La mayoría de los metales que usamos son **aleaciones**, mezclas de metales ent
 - **Durabilidad**: Material inoxidable (a diferencia del hierro puro)
 
 
-#### **Aplicaciones del acero:**
+#### Aplicaciones del acero:
 
 - Construcción de edificios, puentes, torres y barcos
 - Fabricación de cubiertos y objetos en contacto con agua
@@ -38,13 +38,13 @@ La mayoría de los metales que usamos son **aleaciones**, mezclas de metales ent
 - Refuerzo del hormigón (hormigón armado)
 
 
-### **El Hormigón**
+### El Hormigón
 
 El hormigón es uno de los materiales más importantes en la construcción de edificios, puentes, torres, presas y otras grandes obras.
 
 ![Estructura de hormigón](./media/hormigon_edificio.jpg){align=right width=50%}
 
-#### **Composición del hormigón:**
+#### Composición del hormigón:
 
 ![Hormigón](./media/hormigonsimple.png){align=right width=50%}
 
@@ -53,7 +53,7 @@ El hormigón es uno de los materiales más importantes en la construcción de ed
 - **Grava**: Piedras pequeñas que dan resistencia
 - **Agua**: Activa la reacción química del cemento
 
-#### **Características del hormigón:**
+#### Características del hormigón:
 
 - **Resistencia a compresión**: Excelente
 - **Resistencia a tracción**: **Limitada** (punto débil del material)
@@ -61,7 +61,7 @@ El hormigón es uno de los materiales más importantes en la construcción de ed
 - **Durabilidad**: Muy larga vida útil
 
 
-### **El Hormigón Armado: La solución perfecta**
+### El Hormigón Armado: La solución perfecta
 
 Para superar la limitación del hormigón en tracción, se desarrolló el **hormigón armado**:
 
@@ -69,21 +69,21 @@ Para superar la limitación del hormigón en tracción, se desarrolló el **horm
 
 ![Hormigón armado](./media/hormigon_armado.jpg){align=right width=50%}
 
-#### **Ventajas del hormigón armado:**
+#### Ventajas del hormigón armado:
 
 - **El hormigón** soporta muy bien la **compresión**
 - **El acero** soporta muy bien la **tracción**
 - **Juntos** forman un material completo y resistente
 - Se utiliza especialmente para hacer **pilares** que ganan resistencia
 
-#### **Funcionamiento:**
+#### Funcionamiento:
 
 1. Se colocan las varillas de acero en el molde
 2. Se vierte el hormigón líquido alrededor del acero
 3. Al fraguar, ambos materiales trabajan unidos
 4. El resultado es una estructura híbrida muy resistente
 
-## **Comparación de materiales estructurales**
+## Comparación de materiales estructurales
 
 | Material | Resistencia a compresión | Resistencia a tracción | Peso | Coste | Aplicaciones principales |
 | :-- | :-- | :-- | :-- | :-- | :-- |
@@ -93,7 +93,7 @@ Para superar la limitación del hormigón en tracción, se desarrolló el **horm
 | **Madera** | ⭐⭐⭐ | ⭐⭐⭐ | Bajo | Medio | Casas, estructuras ligeras |
 | **Piedra** | ⭐⭐⭐⭐⭐ | ⭐⭐ | Muy alto | Variable | Estructuras masivas históricas |
 
-## **¿Por qué es importante conocer los materiales?**
+## ¿Por qué es importante conocer los materiales?
 
 Entender las propiedades de los materiales te ayuda a:
 
@@ -103,7 +103,7 @@ Entender las propiedades de los materiales te ayuda a:
 - **Diseñar** estructuras más eficientes y seguras
 
 
-## **Curiosidades sobre materiales estructurales**
+## Curiosidades sobre materiales estructurales
 
 !!! info "¿Sabías que...?"
 - El hormigón romano (hace 2000 años) era tan bueno que muchas estructuras siguen en pie

@@ -1,8 +1,8 @@
-# **4. TIPOS DE ESTRUCTURAS ARTIFICIALES**
+# TIPOS DE ESTRUCTURAS ARTIFICIALES
 
 Hay muchos tipos de estructuras. Una forma sencilla de clasificarlas es por su forma o los elementos que predominan en ellas. Siguiendo este criterio, podemos encontrarnos con estructuras **masivas, entramadas, abovedadas, trianguladas y colgantes**.
 
-## **1. Estructuras Masivas**
+## 1. Estructuras Masivas
 
 ![Estructura masiva: pirámide](./media/masiva.png){align=right width=40%}
 
@@ -12,7 +12,7 @@ Hay muchos tipos de estructuras. Una forma sencilla de clasificarlas es por su f
 - **Materiales:** Granito, mármol o hormigón (resistentes a compresión)
 - **Ejemplos:** Pirámides egipcias y mayas, templos griegos, presas de embalses, murallas y diques
 
-## **2. Estructuras Abovedadas**
+## 2. Estructuras Abovedadas
 
 ![Estructura abovedada: puente de arcos romanos](./media/abovedada.png){align=right width=40%}
 
@@ -28,7 +28,7 @@ Hay muchos tipos de estructuras. Una forma sencilla de clasificarlas es por su f
 
 
 
-## **3. Estructuras Entramadas**
+## 3. Estructuras Entramadas
 
 ![Estructura entramada: edificio de vigas y pilares](./media/entramada.png){align=right width=40%}
 
@@ -48,7 +48,7 @@ Hay muchos tipos de estructuras. Una forma sencilla de clasificarlas es por su f
 
     **¿Cuál es más resistente?** El entramado cruzado es mucho más resistente.
     
-## **4. Estructuras Trianguladas**
+## 4. Estructuras Trianguladas
 
 ![Estructura triangulada: torre de acero con cerchas](./media/triangulada.png){align=right width=40%}
 
@@ -63,7 +63,7 @@ Hay muchos tipos de estructuras. Una forma sencilla de clasificarlas es por su f
 - **Ejemplos:** Torres de alta tensión, grúas, plataformas petrolíferas, estadios deportivos, algunos puentes
 
 
-## **5. Estructuras Colgantes**
+## 5. Estructuras Colgantes
 
 ![Estructura colgante: puente de cables suspendidos](./media/colgante.png){align=right width=40%}
 
@@ -79,7 +79,7 @@ Hay muchos tipos de estructuras. Una forma sencilla de clasificarlas es por su f
 - **Característica:** Si los cables se rompieran, el puente se hundiría
 
 
-## **Resumen comparativo**
+## Resumen comparativo
 
 | Tipo | Material principal | Esfuerzo principal | Características | Ejemplos |
 | :-- | :-- | :-- | :-- | :-- |
@@ -89,7 +89,7 @@ Hay muchos tipos de estructuras. Una forma sencilla de clasificarlas es por su f
 | **Triangulada** | Acero, madera | Tracción/compresión | Muy resistente y ligera | Torres eléctricas, grúas |
 | **Colgante** | Cables de acero | Tracción | Salva grandes distancias | Puentes colgantes |
 
-## **¿Por qué es importante conocer estos tipos?**
+## ¿Por qué es importante conocer estos tipos?
 
 Entender los diferentes tipos de estructuras artificiales te ayuda a:
 

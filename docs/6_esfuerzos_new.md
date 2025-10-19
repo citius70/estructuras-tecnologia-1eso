@@ -1,4 +1,4 @@
-# **6. ESFUERZOS**
+# ESFUERZOS
 
 La acción de las fuerzas sobre los cuerpos y su estructura provoca efectos internos en ellos.
 

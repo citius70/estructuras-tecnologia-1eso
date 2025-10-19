@@ -1,4 +1,4 @@
-# **10. LA ESTABILIDAD EN LAS ESTRUCTURAS**
+# LA ESTABILIDAD EN LAS ESTRUCTURAS
 
 La **estabilidad** es una de las tres condiciones esenciales que debe cumplir cualquier estructura (junto con la resistencia y la rigidez) para funcionar correctamente. Sin estabilidad, una estructura podría volcarse, caerse o desplazarse, incluso si sus materiales fueran muy resistentes.
 
